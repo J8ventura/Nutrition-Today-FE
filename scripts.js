@@ -1,4 +1,5 @@
 // Document toggle switch
+// Javascript for Login page
 const TOGGLE_BUTTON_ID = 'toggle-btn';
 const TARGET_ATTRIBUTE_VAL = 'data-toggle';
 const HIDE_CLASS_NAME = 'hide';
