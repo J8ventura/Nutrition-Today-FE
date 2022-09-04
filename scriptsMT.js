@@ -13,7 +13,7 @@ document.getElementById(TOGGLE_BUTTON_ID).addEventListener('click', (e) => {
 
 function Foodname(value)
 {
-//made an if/else condition depending on length of letters
+//made an if/else condition depending on length of letterss
 	if(value.length >= 2)
    {
        document.getElementsByClassName("errorFoodname")[0].style="display:none;";
