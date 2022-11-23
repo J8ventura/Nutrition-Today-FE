@@ -1,0 +1,177 @@
+html, body {
+    min-height: 100%;
+    }
+    body, div, form, input, select, p { 
+    padding: 0;
+    margin: 0;
+    outline: none;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    color: #666;
+    }
+    h1 {
+        margin: .25rem;
+        text-align: center;
+        color: skyblue;
+        padding: 100px;
+    }
+    h2{
+        margin: .25rem;
+        text-align: center;
+    }
+    h3 {
+    margin: 12px 0;
+    color: #2fe1f8;
+    }
+    .main-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    }
+    form {
+    width: 100%;
+    padding: 20px;
+    }
+    fieldset {
+    border: none;
+    border-top: 1px solid #2fd9f0;
+    }
+    .account-details, .personal-details {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+    .account-details >div, .personal-details >div >div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    }
+    .account-details >div, .personal-details >div, input, label {
+    width: 100%;
+    }
+    label {
+    padding: 0 5px;
+    text-align: right;
+    vertical-align: middle;
+    }
+    input {
+    padding: 5px;
+    vertical-align: middle;
+    }
+    
+    select, .gender, .bdate-block {
+    width: calc(100% + 26px);
+    padding: 10px 0;
+    }
+    select {
+    background: transparent;
+    }
+    .
+    .bdate-block {
+    display: flex;
+    justify-content: space-between;
+    }
+    .birthdate select.day {
+    width: 70px;
+    }
+    .birthdate select.mounth {
+    width: calc(100% - 50px);
+    }
+    .birtdate select.year{
+    width: 50px;
+    }
+    
+    
+    button {
+    width: 10%;
+    padding: 10px 0;
+    margin:auto;
+    border-radius: 5px; 
+    border: none;
+    background: #3dccf0; 
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    
+    }
+    button:hover {
+    background: #2ccde9;
+    }
+    @media (min-width: 568px) {
+    .account-details >div, .personal-details >div {
+    width: 30%;
+
+    }
+    label {
+    width: 40%;
+    }
+    input {
+    width: 60%;
+    }
+    select, .gender {
+    width: 25%
+ 
+    }
+    }
+
+  /* Navigations */
+
+.hide {
+    display: none;
+}
+
+.spacer {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    background-color: skyblue;
+    padding: 8px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu {
+    transition: display 1s;
+}
+
+.nav-menu ul {
+    list-style: none;
+    margin-block: 0;
+    padding-inline-start: 0;
+}
+
+.nav-menu ul li {
+    padding: 0.5rem;
+}
+
+.nav-menu ul li:hover {
+    background-color: lightblue;
+}
+
+.nav-menu ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-profile-btn img {
+    height: 52px;
+    width: 52px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.nav-profile-btn {
+    display: flex;
+    align-items: center;
+}
+
+.nav-profile-btn span {
+    padding: 4px;
+}
+
+/* End navigation */
